@@ -1,0 +1,72 @@
+
+* {
+	background-color: blue;
+	font-family: "Courier New", Courier, monospace;
+	cursor: url(knife.png), auto;
+}
+.agesubmit {
+	font-size: 20px;
+	text-align: center;
+	vertical-align: center;
+	width: 100%;
+	color: white;
+}
+
+h1{
+	color: white;
+}
+
+.shaking {
+	font-size: 30px; 
+	text-align: center; 
+	color: white;
+}
+  /*animation: shake 0.82s infinite cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 3px, 3px);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 6px);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 2px, -2px);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 1px, 0);
+  }
+} */
+
+.sidewidth {
+	width: 200px;
+/*    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}*/
+}
+
+
+.rightedgeimages {
+    width: 200px;
+    float: right;
+}
+
+.leftedgeimages {
+    width: 200px;
+    float: left;
+}
+
+
+.beware{
+	width:400px;
+}

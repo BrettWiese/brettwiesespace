@@ -1,0 +1,6 @@
+AddHandler application/x-httpd-php5 .php
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^brettwiese.space$
+RewriteRule ^/?$ "http\:\/\/www\.brettwiese\.space\/" [R=301,L]
+
